@@ -23,14 +23,10 @@ const AddTask=({onAdd})=> {
                 <label>Day</label>
                 <input type='text' placeholder='Add day' value={day} onChange={(e)=>setDay(e.target.value)}/>
             </div>
-            <div className='Form-control'>
-                <label>Reminder</label>
-                <input type='checkbox' id='Checkbox' checked={reminder} value={reminder} onChange={(e)=>setReminder(e.currentTarget.checked)}/>
-            </div>
+            
             <input type='submit' value='Save Task' id='Submit'/>
         </form>
         );
 };
 
 export default AddTask
-    

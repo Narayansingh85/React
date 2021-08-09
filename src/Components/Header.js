@@ -8,5 +8,5 @@ export const Header = ({onAdd,toggle}) => {
             <h1>Add Your Task</h1>
             <Button onAdd={onAdd} toggle={toggle}/>
         </div>
-    )
-}
+    );
+};
